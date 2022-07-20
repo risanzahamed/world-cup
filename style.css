@@ -125,6 +125,7 @@
             padding: 20px;
             width: 252px;
             margin-top: 10px;
+            color: black;
         }
 
 
@@ -153,7 +154,7 @@
         }
         .active a{
             color: white;
-            
+           
             font-size: 16px;
             font-family: 'Poppins';
             padding: 17px 7px;
@@ -360,7 +361,7 @@
                 width: 312px;
             }
             
-            /*-------------- Start side nav style ----------------------*/
+            /*-------------- End side nav style ----------------------*/
 
         /*------------- start blog section style ----------------- */
 
@@ -385,7 +386,7 @@
             .fa-comment{
                 margin-right: 10px;
             }
-         /*------------- start blog section style ----------------- */
+         /*------------- End blog section style ----------------- */
 
 
           /*------------- start footer style ----------------*/
