@@ -217,6 +217,21 @@
 
 /* ------------end blog section ---------------*/
 
+
+        .view-all{
+            display: none;
+            color: white;
+            background-color: #DD0000;
+            margin: 0%;
+            border: 0%;
+            font-size: 16px;
+            font-family: 'Poppins';
+            padding: 17px 39px;
+            border-radius: 10px;
+            border: 0px solid white;
+        }
+
+
 /*------------------ Start Upcoming Match blog section -------------- */
 
         .upcoming-blog-wrapper{
@@ -392,6 +407,8 @@
           /*------------- start footer style ----------------*/
             .footer{
                 width: 100%;
+                padding-top: 50px;
+                padding-bottom: 50px;
             }
     
             .footer-nav-wrapper hr{
@@ -409,6 +426,15 @@
                 padding:10px 24px;
             }
         }
+        .social-icons{
+            margin-top: 50px;
+        }
+        .social-icons a{
+            color: white;
+            margin: 10px;
+            size: 50px;
+        }
+
       /*------------- End footer style ----------------*/
 
   /* ------------End Mobile Responsive -------------------- */     
@@ -556,6 +582,9 @@
     
     /*------------- start blog section style ----------------- */
 
+        .hide-tab{
+            display: none;
+        }
 
         .blog{
             display: grid;
@@ -581,6 +610,22 @@
 
      /*------------- End blog section style ----------------- */
 
+     .view-all{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        color: white;
+        background-color: #DD0000;
+        margin: 0%;
+        border: 0%;
+        font-size: 16px;
+        font-family: 'Poppins';
+        margin-top:  50px;
+        margin-left: 50px;
+        padding: 17px 39px;
+        border-radius: 10px;
+        border: 0px solid white;
+    }
 
     /*------------- start footer style ----------------*/
         .footer{
