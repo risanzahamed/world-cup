@@ -268,7 +268,31 @@
 
         @media screen and (max-width:576px){
 
-            
+        /*--------------- Start common styles ---------------- */
+
+        .container{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: black;
+            width: 334px;
+            height: 512px;
+            padding-top: 20px;
+            padding-bottom: 20px;       
+            border-radius: 12px;
+            margin-bottom: 20px ;
+        }
+
+        .second-container{
+            display: flex;
+            flex-direction: column;
+            width: 345px;
+        }
+
+        /*--------------- end common styles ---------------- */
+
+        /*--------------- start hero style -------------------*/
+
             .hero-section{
                 display: flex;
                 flex-direction: column;
@@ -322,7 +346,9 @@
                 margin-right: 0%;
 
             }
+            /*--------------- End hero style -------------------*/
 
+            /*-------------- Start side nav style ----------------------*/
             .side-nav{
                 display: block;
                 text-align: center;
@@ -334,25 +360,9 @@
                 width: 312px;
             }
             
-            .container{
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                background-color: black;
-                width: 334px;
-                height: 512px;
-                padding-top: 20px;
-                padding-bottom: 20px;       
-                border-radius: 12px;
-                margin-bottom: 20px ;
-            }
+            /*-------------- Start side nav style ----------------------*/
 
-            .second-container{
-                display: flex;
-                flex-direction: column;
-                width: 345px;
-            }
-
+        /*------------- start blog section style ----------------- */
 
             .blog{
                 display: grid;
@@ -375,8 +385,10 @@
             .fa-comment{
                 margin-right: 10px;
             }
-    
-            
+         /*------------- start blog section style ----------------- */
+
+
+          /*------------- start footer style ----------------*/
             .footer{
                 width: 100%;
             }
@@ -396,16 +408,44 @@
                 padding:10px 24px;
             }
         }
+      /*------------- End footer style ----------------*/
 
-  /* ------------End Mobile Responsive -------------------- */          
+  /* ------------End Mobile Responsive -------------------- */     
+  
+  
+
 
 /*--------------- start tab responsive -------------------*/
 
 @media screen and (min-width:577px) and (max-width: 991.98px) 
 
  {
-     
 
+    /*--------------- start common styles ---------------- */
+
+    .container{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        background-color: black;
+        width: 639px;
+        height: 344px;
+        padding-top: 20px;
+        padding-bottom: 20px;       
+        border-radius: 12px;
+        margin-bottom: 20px ;
+        
+    }
+
+    .second-container{
+        display: flex;
+        flex-direction: column;
+        width: 734px;
+    }
+
+    /*--------------- end common styles ---------------- */
+     
+    /*-------------- hero start -------------------*/
         .hero-section{
             display: flex;
             flex-direction: row;
@@ -466,6 +506,12 @@
             align-items: left;
 
         }
+
+    /*------------ hero end ---------------- */
+
+
+    /* ----------- start side nav section -------------*/
+
         .active{
             padding: 15px;
         }
@@ -502,26 +548,12 @@
             height: 60px;
             width: 670px;
         }
-        
-        .container{
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            background-color: black;
-            width: 639px;
-            height: 344px;
-            padding-top: 20px;
-            padding-bottom: 20px;       
-            border-radius: 12px;
-            margin-bottom: 20px ;
-            
-        }
+    
+    /* ---------- end side nav section --------------- */
 
-        .second-container{
-            display: flex;
-            flex-direction: column;
-            width: 734px;
-        }
+        
+    
+    /*------------- start blog section style ----------------- */
 
 
         .blog{
@@ -546,7 +578,10 @@
             margin-right: 10px;
         }
 
-        
+     /*------------- End blog section style ----------------- */
+
+
+    /*------------- start footer style ----------------*/
         .footer{
             width: 100%;
         }
@@ -565,31 +600,11 @@
             align-items: center;
             padding:10px 24px;
         }
+
+      /*------------- End footer style ----------------*/    
     }
 
-
-
-
-
-
-
-
 /*--------------- end tab responsive -------------------*/
-
-
-   
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*-------------- Responsive device section End -------------------*/
