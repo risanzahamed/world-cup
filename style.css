@@ -316,7 +316,7 @@
                 font-weight: 400;
                 padding: 16px 25px;
                 margin-top: 10px;
-                margin-left: 88px;
+                margin-left: 44px;
             }
 
             
@@ -326,7 +326,7 @@
             .image-wrapper img{
                 width: 233px;
                 height: 245px;
-                margin-top: 44px;
+                margin-top: 23px;
                 margin-left: 22px;
                 margin-right: 0%;
 
@@ -348,7 +348,7 @@
                 flex-direction: column;
                 align-items: center;
                 background-color: black;
-                width: 400px;
+                width: 334px;
                 height: 512px;
                 padding-top: 20px;
                 padding-bottom: 20px;       
