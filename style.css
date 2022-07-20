@@ -1,49 +1,286 @@
 /* font styles start*/
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@700;800&family=Poppins&family=STIX+Two+Text&display=swap');
 
 
 /* font styles end*/
 
-body{
-    background-color: beige;
-    font-family: 'Poppins', sans-serif;
-}
+/* ----common styles or utility start--------  */
 
-.center{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+        body{
+            background-color: beige;
+            font-family: 'Poppins', sans-serif;
+            font-family: 'Montserrat', sans-serif;
+            margin: 0%;
+        }
 
-}
-.container{
+        .content-center{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .container{
 
-    background-color: black;
-    width: 1321px;
-    height: 646px;
-    padding: 30px;
-    margin-top: 20px;
-    border-radius: 9px;
-}
-.hero-section{
-    display: flex;
-    align-items: center;
-}
-.text-wrapper{
-    color: aliceblue;
-}
+            background-color: black;
+            width: 1321px;
+            height: 646px;
+            margin-top: 20px;
+            margin-bottom: 106px;
+            border-radius: 12px;
+        }
 
-.text-wrapper h1{
-    font-size: 80px;
-    font-weight: bold;
-}
-.text-wrapper p{
-    font-size: 16px;
-    font-weight: 400;
-}
+        .second-container{
+            display: flex;
+            flex-direction: row;
+            width: 1321px;
+        }
 
-.image-wrapper img{
-    width: 581px;
-    margin-top: 64px;
-}
+/* -----common styles or utility end ------*/
+
+
+
+/* --------start top hero section----------- */
+
+        .hero-section{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-left: 106px;
+        }
+        .text-wrapper{
+            color: aliceblue;
+        }
+        .watch-live:hover{
+            background-color: white;
+            color: black;
+            transition: ease-in;
+        
+        }
+
+        .text-wrapper h1{
+            font-family: 'Poppins';
+            font-size: 70px;
+            font-weight: bold;
+            line-height: 80px;
+            margin: 0%;
+        }
+        .text-wrapper p{
+            font-family: 'Montserrat';
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 30px;
+        }
+
+        .text-wrapper button{
+            color: white;
+            background-color: #DD0000;
+            font-size: 20px;
+            line-height: 25px;
+            font-weight: 400;
+            padding: 16px 25px;
+            margin-top: 10px;
+        }
+        .fa-arrow-right{
+            margin-left: 10px;
+
+        }
+        .image-wrapper{
+            display: flex;
+            justify-content: end;
+        }
+
+        .image-wrapper img{
+            width: 581px;
+            margin-top: 33px;
+            margin-right: 78px;
+        }
+
+/*---------- end top hero section ------------ */
+
+
+
+/* ----------- start side nav section -------------*/
+
+        .side-nav{
+            display: block;
+            text-align: center;
+            background-color: black;
+            padding: 30px;
+            margin-top: 24px;
+            border-radius: 10px;
+            height: 312px;
+            width: 312px;
+        }
+
+        .nav-item button{
+            margin-top: 30px;
+            width: 252px;
+        }
+        .nav-item a{
+            
+            text-align: center;
+            text-decoration: none;
+            padding: 20px;
+            width: 252px;
+            margin-top: 10px;
+        }
+
+
+        .inactive{
+            color: black;
+            background-color: white;
+            font-size: 16px;
+            font-family: 'Poppins';
+            padding: 15px 34px;
+            border-radius: 10px;
+            text-align: center;
+            text-decoration: none;
+            margin-top: 30px;
+            
+
+        }
+        .active{
+            color: white;
+            background-color: #DD0000;
+            margin: 0%;
+            border: 0%;
+            font-size: 16px;
+            font-family: 'Poppins';
+            padding: 17px 39px;
+            border-radius: 10px;
+        }
+        .active a{
+            color: white;
+            
+            font-size: 16px;
+            font-family: 'Poppins';
+            padding: 17px 7px;
+            border-radius: 10px;
+        }
+
+/* ---------- end side nav section --------------- */
+
+/* ------------start blog section ---------------*/
+
+        .blog{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            margin-left: 24px;
+        }
+
+        .blog-wrapper{
+            width: 312px;
+            background-color: white;
+            border: 1px solid #E8E8E8;
+            border-radius: 10px;
+            margin-top: 24px;
+            margin-right: 24px;
+        }
+        .blog-details-wrapper{
+            padding: 20px;
+        }
+
+        .blog-details-wrapper button{
+            color: black;
+            background-color: white;
+            font-size: 16px;
+            font-family: 'Poppins';
+            font-weight: 500;
+            border: 1px solid black;
+            border-radius: 6px;
+            padding: 4px 16px;
+        }
+        .blog-details-wrapper h3{
+            font-size: 18px;
+            line-height: 26px;
+            font-weight: 600;
+        }
+
+        .blog-icons{
+            display: flex;
+        }
+
+        .space-between{
+            margin-left: 30px;
+        }
+
+        .fa-clock{
+            margin-right: 10px;
+        }
+
+        .fa-comment{
+            margin-right: 10px;
+        }
+
+/* ------------end blog section ---------------*/
+
+/*------------------ Start Upcoming Match blog section -------------- */
+
+        .upcoming-blog-wrapper{
+            text-align: center;
+            width: 312px;
+            background-color: white;
+            border: 1px solid #E8E8E8;
+            border-radius: 10px;
+            padding-top: 50px;
+            padding-bottom: 20px;
+            margin-top: 24px;
+            margin-right: 24px;
+        }
+
+/*------------------End Upcoming Match blog section -------------- */
+
+
+/*--------------- Footer section start -------------- */
+
+        .footer{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            height: 444px;
+            background-color: black;
+            color: white;
+            margin-top: 130px;
+        }
+
+        .footer-nav-wrapper hr{
+            margin-top: 60px;
+            width: 1320px;
+        }
+        .footer-nav-wrapper ul,li{
+            display: flex;
+            text-decoration: none;
+            justify-content: center;
+            align-items: center;
+            padding:0px 24px;
+        }
+
+/* --------------- Footer section End ------------------ */
+
+
+/*-------------- Responsive device section start -------------------*/
+
+        @media screen max(512px){
+
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-------------- Responsive device section End -------------------*/
