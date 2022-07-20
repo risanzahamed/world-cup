@@ -594,7 +594,8 @@
 
         .footer-nav-wrapper ul,li{               
             display: flex;
-            flex-direction: column;
+            flex-direction: row;
+            flex-wrap: wrap;
             text-decoration: none;
             justify-content: center;
             align-items: center;
